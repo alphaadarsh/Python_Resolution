@@ -1,0 +1,49 @@
+Key words are special reserved words  
+only use for particular purpose  
+variable 
+for we cannot use keywords  
+
+eg . 
+
+1 :  for  ,  while , break  , def  , lambda  ,  and , or , not  , true , false  , NOne  
+
+Primitive Data types  
+
+INT 
+ float 
+ strings 
+ boolean 
+ none     # you can type to get know the type casting   
+
+ for finding length (n-1)  will be the last chr  
+
+ n is lingth of 
+
+ type conversion and casting  
+
+ num = 100  
+
+ that is integer  so change 
+
+ num 2  =  float(num1)
+
+ concatination happen string to string 
+
+ ver = 3.13  
+
+ ver1  = str(ver)
+
+ it is converted in str   # bool none false 
+
+ # Arithmatics operators  
+I'm not able to change the color of plaintext in a `.txt` file, as plaintext doesn't support color formatting.
+
+If you want to add colors, you could:
+- Convert to **Markdown** and use syntax highlighting
+- Use **HTML** with CSS
+- Use a **Jupyter Notebook** with code cells
+- Use **ANSI escape codes** for terminal output
+
+Could you clarify what format you'd like to use?
+
+what does it maeans by print max  it give maximum number
