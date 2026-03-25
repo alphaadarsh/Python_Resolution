@@ -10,4 +10,15 @@ print("python" in s2)  # this will return True because the substring "python" is
 print("java" in s2)  # this will return False because the substring "java
 
 # comparision of string in python is done using the ascii values of the characters in the string
- 
+print("python" > "java")  # this will return True because the ascii value of 'p' is greater than the ascii value of 'j'
+print("python" < "java")  # this will return False because the ascii value
+print("python" == "Python")  # this will return False because the ascii value of 'p' is not equal to the ascii value of 'P' 
+
+# strips use for removing the leading and trailing whitespace characters from a string
+s3 = "   python is a great language   "
+print(s3.strip())  # this will remove the leading and trailing whitespace characters from the string s3 and print "python is a great language" without any leading or trailing whitespace characters
+
+# replace method in python is used to replace a substring with another substring in a string
+
+s4 = "python is a great language"
+print(s4.replace("python", "java"))  # this will replace the substring "python  
