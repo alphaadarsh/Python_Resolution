@@ -21,5 +21,5 @@ print(s3.strip())  # this will remove the leading and trailing whitespace charac
 # replace method in python is used to replace a substring with another substring in a string
 
 s4 = "python is a great language"
-print(s4.replace("python", "java"))  # this will replace the substring "python   we can also add count to 1 that on;ly the first occurrence of "python" will be replaced with "java" in the string s4 and print "java is a great language"
+print(s4.replace("python", "java"))  # this will replace the substring "python   we can also add count to 1 that on;ly the first occurrence of "python" will be replaced with "java" in the string s4 and print "java is a great language" if we want to change n number of occurrences of "python" to "java" then we can add count to n in the replace method like this s4.replace("python", "java", n) where n is the number of occurrences we want to replace
 
