@@ -18,5 +18,14 @@
 # step   :   step size for slicing ,  default value is 1 stoping index ina nother word that specifies the step for slicing
 
 S1 = "Hello world"
+s1 = "Hello world"
 
-print(S1[2:8:1])  # slicing from index 2 to index 8 with a step of 1
+# print(S1[2:8:1])  # slicing from index 2 to index 8 with a step of 1
+# print(S1[2:9:2])  # slicing from index 2 to index 9 with a step of 2 
+
+# slicing with default values
+# print(S1[2:8])   # slicing from index 2 to index 8 with default step of 1
+# print(S1[2:9:])  # slicing from index 2 to index 9 with default step of 1
+
+s1_slice = S1[2:8:1]  # slicing from index 2 to index 8 with a step of 1 and assigning it back to s1
+print(type(s1_slice))  # printing the type of s1_slice after slicing
