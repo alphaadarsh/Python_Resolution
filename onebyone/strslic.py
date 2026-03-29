@@ -28,4 +28,5 @@ s1 = "Hello world"
 # print(S1[2:9:])  # slicing from index 2 to index 9 with default step of 1
 
 s1_slice = S1[2:8:1]  # slicing from index 2 to index 8 with a step of 1 and assigning it back to s1
+print(s1_slice)  # printing the sliced substring
 print(type(s1_slice))  # printing the type of s1_slice after slicing
